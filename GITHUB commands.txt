@@ -1,0 +1,13 @@
+touch .gitignore  : to ignore specifuic files in folder from sending to github
+
+git config --global user.name Prakhar
+git config --global user.email prakhar333.psp@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status  #just to see
+ssh-keygen -t ed25519 -C "prakhar333.psp@gmail.com"
+tail <path ti id_rsa.pub> # Add this key to your github account
+git remore add origin <ssh url.git>
+git origin master
+
