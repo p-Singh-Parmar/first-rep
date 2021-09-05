@@ -83,12 +83,17 @@ void getPairsCount() {
 
             if(s.length()==4)
             {
-                uniqueDates.insert(s);
+                uniqugeDates.insert(s);
                 s.clear();
             }
         }
         int c=uniqueDates.size();
         cout<<c<<endl;
+    }
+
+    void stringtoint()
+    {
+        
     }
 
     void missing()
